@@ -1,0 +1,253 @@
+﻿
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projecto_Final | Portafolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+ <!-- PROGRESS BAR -->
+  <div id="scroll-progress"></div>
+
+  <!-- ==================== HEADER / NAV ==================== -->
+  <header id="header">
+    <div class="nav-container">
+      <div class="logo">
+        <span class="logo-title">Proyecto_Final</span>
+        <span class="logo-subtitle">Programación Web Full Stack</span>
+      </div>
+      
+      <!-- NAV DESKTOP -->
+      <div class="header-menu">
+        <nav>
+          <ul id="nav-list">
+            <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+            <li><a href="#educacion" class="nav-link">Educación</a></li>
+            <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+            <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+            <li><a href="#contacto" class="nav-link">Contacto</a></li>
+          </ul>
+        </nav>
+        <div class="nav-actions">
+          <a href="https://github.com/emiliocruzleal-sudo" target="_blank" class="github-link" aria-label="Mi GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Cambiar tema">🌙</button>
+          <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Abrir menú móvil">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- MOBILE MENU -->
+    <div id="mobile-menu" aria-hidden="true">
+      <ul>
+        <li><a href="#sobre-mi" class="mob-link">Sobre mí</a></li>
+        <li><a href="#educacion" class="mob-link">Educación</a></li>
+        <li><a href="#proyectos" class="mob-link">Proyectos</a></li>
+        <li><a href="#habilidades" class="mob-link">Habilidades</a></li>
+        <li><a href="#contacto" class="mob-link">Contacto</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre-mi" class="hero-section">
+      <div class="hero-copy">
+        <span class="eyebrow">Sobre mi</span>
+        <h1>Emilio Cruz Leal</h1>
+        <p class="hero-copy-text">Soy un estudiante de tercer año de la Ingenieria de Sistemas Electrónicos Inteligentes impartida en la Universidad Autónoma de Ciudad Juarez (UACJ). Desde mi infancia he tenido un fuerte interés hacia la programacion y electrónica, practicando en mi tiempo libre en proyectos personales para mejorar mis habilidades y poner a prueba mis conocimientos.</p>
+      </div>
+      <div class="hero-visual">
+        <img src="ImagenEmilio.jpeg" alt="Emilio" class="hero-image" />
+      </div>
+      <div class="hero-footer">
+        <div class="info-cards horizontal serie">
+          <div class="info-card">🏡 Ciudad Juárez, Chihuahua, México</div>
+          <div class="info-card">🎓 UACJ · Ingeniería en Sistemas Electrónicos Inteligentes</div>
+          <div class="info-card">🎂 20 años</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== Historial Académico ==================== -->
+    <section id="educacion" class="section">
+      <div class="section-intro">
+        <h2>Historial Académico</h2>
+      </div>
+
+      <div class="services-list">
+        <div class="service-card">
+            <h3>🎓 Ingeniería en Sistemas Electrónicos Inteligentes</h3>
+            <p>UACJ · Universidad Autónoma de Ciudad Juárez</p>
+            <p>📅2026 - Actualidad</p>
+        </div>
+      </div>
+
+      <div class="services-list">
+        <div class="service-card">
+            <h3>🎓 Ingeniería en Sistemas Digitales y Comunicaciones</h3>
+            <p>UACJ · Universidad Autónoma de Ciudad Juárez</p>
+            <p>📅2024 - 2025</p>
+        </div>
+      </div>
+
+      <div class="services-list">
+        <div class="service-card">
+            <h3>🎓 Ingeniería en Tecnologías de la Información y Comunicaciones</h3>
+            <p>ITCJ · Instituto Tecnológico de Ciudad Juárez</p>
+            <p>📅2023 - 202\4</p>
+        </div>
+      </div>
+
+      <div class="services-list">
+        <div class="service-card">
+          <h3>🎓 Preparatoria </h3>
+          <p>📅2020 - 2023</p>
+        </div>
+      </div>
+
+      <div class="services-list">
+        <div class="service-card">
+          <h3>🎓 Secundaria </h3>
+          <p>📅2017 - 2020</p>
+        </div>
+  
+      </div>
+    </section>
+
+    <!-- ==================== Sección de Proyectos ==================== -->
+    <section id="proyectos" class="section">
+      <div class="section-intro">
+        <h2>Proyectos</h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card glass-card">
+          <h3>Teorema de Fourier</h3>
+          <p>Utilice tecnicas de programacion para poder manipular audio con tecnicas de procesamiento de audio utilizando la transformada de fourier rapida en Matlab.</p>
+        </article>
+
+        <article class="project-card glass-card">
+          <h3>Desarrollo Web</h3>
+          <p>Creación de páginas web interactivas y responsivas utilizando tecnologías modernas de desarrollo web, como pueden ser HTML, CSS y JavaScript.</p>
+        </article>
+
+        <article class="project-card glass-card">
+          <h3>VHDL/Logica Digital</h3>
+          <p>Desarrollo de circuitos digitales utilizando el lenguaje de descripción de hardware VHDL, utilizando la Basys 3 para la implementacion y vivado para la simulacion.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==================== Conocimientos y Habilidades ==================== -->
+    <section id="habilidades" class="section section-alt">
+      <div class="section-inner">
+        <div class="section-header fade-in">
+          <h2 class="section-title typewriter" data-en="Technical <span class='accent'>Skills</span>">Conocimientos y Habilidades en Desarrollo</h2>
+        </div>
+
+        <div class="skills-grid fade-in">
+
+          <!-- PROGRAMACIÓN -->
+          <article class="glass-card skill-card">
+            <h3>🖥️ Programación</h3>
+            <dl class="skill-dl">
+              <dt>JavaScript</dt>
+              <dt>Matlab</dt>
+              <dt>HTML</dt>
+              <dt>CSS</dt>
+              <dt>C++</dt>
+              <dt>C</dt>
+            </dl>
+          </article>
+
+          <!-- ELECTRÓNICA -->
+          <article class="glass-card skill-card">
+            <h3>🔋 Electrónica Digital y Analógica</h3>
+            <dl class="skill-dl">
+              <dt>Diseño y Simulación de Sistemas Lógicos</dt>
+              <dt>Lógica Binaria</dt>
+              <dt>VHDL</dt>
+              <dt>Uso de Componentes Electrónicos</dt>
+              <dt>Diseño de Circuitos</dt>
+            </dl>
+          </article>
+
+          <!-- Habilidades -->
+          <article class="glass-card skill-card">
+            <h3>🗣️ Habilidades</h3>
+            <dl class="skill-dl">
+              <dt>Trabajo en Equipo</dt>
+              <dt>Adaptabilidad</dt>
+              <dt>Inglés (C1)</dt>
+              <dt>Español (Nativo)</dt>
+            </dl>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p class="section-subtitle">¿Tienes una pregunta o propuesta? Me encantaría saber de ti!</p>
+        <div class="contact-grid">
+          <div class="contact-info glass-card">
+            <h3>Datos de Contacto</h3>
+            <ul class="contact-list">
+              <li><span class="contact-label">📫</span> Correo Personal: <a href="mailto:emiliocruzleal@gmail.com">emiliocruzleal@gmail.com</a></li>
+              <li><span class="contact-label">📫</span> Correo Institucional: <a href="mailto:al243016@alumnos.uacj.mx">al243016@alumnos.uacj.mx  </a></li>
+
+            </ul>
+          </div>
+          <form id="contact-form" class="glass-card contact-form" novalidate>
+              <div class="form-group">
+                <label for="nombre">Nombre completo*</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre aquí" required />
+                <span class="field-error" id="error-nombre"></span>
+              </div>
+              <div class="form-group">
+                <label for="email">Correo electrónico*</label>
+                <input type="email" id="email" name="email" placeholder="Escriba su correo aquí" required />
+                <span class="field-error" id="error-email"></span>
+              </div>
+              <div class="form-group">
+                <label for="asunto">Asunto*</label>
+                <input type="text" id="asunto" name="asunto" placeholder="Escriba el asunto del correo" required />
+                <span class="field-error" id="error-asunto"></span>
+              </div>
+              <div class="form-group">
+                <label for="mensaje">Mensaje *</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Escriba su mensaje aquí" rows="5" required></textarea>
+                <span class="field-error" id="error-mensaje"></span>
+              </div>
+              <button type="submit" class="btn-primary btn-full">
+                <i class="fas fa-paper-plane"></i> Enviar Mensaje
+              </button>
+              <div id="form-success" class="form-success" aria-live="polite"></div>
+          </form>
+        </div>
+    </section>
+
+    </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>© 2026 Emilio. No se que mas ponerle aqui xd</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+
